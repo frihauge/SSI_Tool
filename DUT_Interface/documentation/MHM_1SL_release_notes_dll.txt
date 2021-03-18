@@ -1,0 +1,275 @@
+###########
+MHM_1SL DLL 
+###########
+
+RELEASE NOTES
+*************
+
+
+Version 4.4.0 (October 13, 2020)
+===============================
+
+ENHANCEMENTS:
+* Stability and performance upgrades for BiSS-Communication with adapters: MB4U & MB5U.
+
+BUGFIXES:
+* Calibration failed with individual MB5U adapters.
+
+NOTES:
+* Corresponding to iC-MHM library manual, revision D4.
+* Corresponding to iC-MHM datasheet, revision D2.
+* Supported iC-MHM revision: X2(n/a), X5(0x35).
+* Successfully tested on Windows 10 Version 1909.
+=============================================================================
+
+
+Version 4.3.0 (July 20, 2020)
+===============================
+
+CHANGES:
+* Changed driver for the iC-Haus USB adapters MB4U and MB5U to libusb. 
+  The installation of the new iC-Haus USB drivers is required for using the current software version. 
+  After the installation of the new adapter drivers other iC-Haus GUI software might not work anymore due to using a different driver and should be updated.
+  If you have problems please contact iC-Haus for assistance.
+
+NOTES:
+* Corresponding to iC-MHM library manual, revision D4.
+* Corresponding to iC-MHM datasheet, revision D2.
+* Supported iC-MHM revision: X2(n/a), X5(0x35).
+* Successfully tested on Windows 10 Version 1909.
+=============================================================================
+
+
+Version 4.2 (November 28, 2019)
+===================================
+
+BUGFIXES:
+* MB3U: The config error detection of the function MHM_SwitchToBiss failed in some particular cases (windows and driver version dependent).
+
+CHANGES:
+* MHM_ConfigDataEnum extended.
+
+NOTES:
+* Corresponding to iC-MHM library manual, revision D3.
+* Corresponding to iC-MHM datasheet, revision D2.
+* Supported iC-MHM revision: X2(n/a), X5(0x35).
+======================================================================
+
+
+Version 4.1 (November 15, 2017)
+=====================================
+
+NEW:
+* Write EEPROM (EDS) now writes the BiSS Profile ID.
+
+ENHANCEMENTS:
+* MHM_SwitchToBiss configuration error detection.
+* Improved error handling of functions MHM_FullCalibration and MHM_Adjust.
+* MHM_WriteEeprom: improved SSI mode support.
+
+CHANGES:
+* MHM_ErrorEnum extended.
+* MHM_ConfigDataEnum extended.
+
+BUGFIXES:
+* MHM_SaveParams: EDS_BP_CRC calculation.
+* MHM_LoadRegisterEx and MHM_SaveRegisterEx issues with some address ranges. 
+
+NOTES:
+* Corresponding DLL manual version D2
+==============================================================================================
+
+
+Version 4.0 (January 17, 2017)
+=====================================
+
+NEW:
+* BiSS chain support.
+* Function MHM_Preset.
+* I2C functions: MHM_WriteRegister_I2C,	MHM_WriteRegister_I2C_Ex,	MHM_ReadRegister_I2C,	MHM_LoadRegisterEx,	MHM_SaveRegisterEx.
+
+CHANGES:
+* MHM_ParamEnum changed corresponding to iC specification C1.
+* MHM_ErrorEnum and MHM_E2PAreaEnum extended.
+
+BUGFIXES:
+* eMHM_CAL_QUALITY_CHECK can now be deactivated.
+* Reading eMHM_REFRAW will no longer return error eMHM_INVALID_PARAMETER.
+* MHM_WriteParams with verification now works as intended.
+* MHM_ReadEeprom with options eMHM_E2P_CFG_MHM and eMHM_E2P_EDS now works as intended.
+
+NOTES:
+* Corresponding DLL manual version D1
+==============================================================================================
+
+
+Version 3.0 (Juli 14, 2016)
+=====================================
+
+NEW:
+* Added new function MHM_GetLastError with new enum MHM_ErrorTypeEnum
+* Extended MHM_CalDataEnum
+* Extended MHM_ErrorEnum
+* Added new functions: MHM_SetCalCfg, MHM_GetCalCfg, MHM_AdjustGain, MHM_ActivateCalCfg, MHM_AcquireEx, MHM_DeactivateCalCfg, MHM_AnalyzeData, MHM_Adjust, MHM_SetCalData
+* Added new Enum MHM_CalCfgEnum
+
+CHANGES:
+* Replaced MHM_Calibrate with MHM_FullCalibration
+* Replaced MHM_Acquire with MHM_FullAcquisition
+
+BUGFIXES:
+* 
+
+NOTES:
+* Corresponding DLL manual version C1
+===============================================================================================
+
+
+Version 2.1 (June 15, 2016)
+=====================================
+
+NEW:
+* MHM_ConfigDataEnum extended (TTL support for PC adapters MB4U and MB5U).
+
+ENHANCEMENTS:
+* Error handling in SSI mode.
+* Parameters ENROT_P, NTOA set to adaptive within the MHM_Calibrate, MHM_ACQUIRE functions.
+
+CHANGES:
+*
+
+BUGFIXES:
+* 
+
+KNOWN BUGS:
+* 
+
+NOTES:
+* Corresponding DLL manual version B2
+===============================================================================================
+
+
+Version 2.0 (March 15, 2016)
+=====================================
+FEATURES:
+- Chip version iC-MHM X4 support.
+- MHM_ParamEnum extended.
+- MHM_ErrorEnum extended.
+- MB5U: Error detection improved
+
+BUGFIXES:
+
+NOTES:
+(Corresponding DLL manual version B1)
+===============================================================================================
+
+
+Version 1.8
+=====================================
+FEATURES:
+- New Function MHM_GetInterfaceInfo added
+- GET_MT now supports more multiturn devices
+
+BUGFIXES:
+- Bugfix MHM_ReadSens: disabeling/enabeling cyclic read of registers GAIN, Ports and Status ,
+  will now work with the SPI Interface.
+- Some minor calibration bugfixes
+
+NOTES:
+===============================================================================================
+
+
+Version 1.7
+=====================================
+FEATURES:
+- New Interface MB5U implemented
+- Functions MHM_Calibrate and MHM_Acquire now support PC adapters MB5U and MB3U-SPI
+- MHM_ConfigDataEnum extended: eMHM_CAL_FREQ_SPI, eMHM_CAL_FREQ_SCD, eMHM_CAL_FREQ_AGS, eMHM_FREQ_SSI,
+	eMHM_READ_STATUS_ENABLE, eMHM_READ_PINS_ENABLE, eMHM_READ_GAIN_ENABLE
+- MHM_InterfaceEnum extended: eMHM_MB5U
+- Function MHM_ReadSens cyclic read of registers GAIN, Ports and Status can now be disabled/enabled
+
+BUGFIXES:
+- Some minor EDS bugfixes
+- Some changes of the SPI frequencies led to MHM_SPI_ERROR messages
+
+NOTES:
+- Calibration improvements see latest DLL specifitcation for details (MHM_Calibrate and MHM_Acquire)
+===============================================================================================
+
+
+Version 1.6
+=====================================
+FEATURES:
+- MHM_ErrorEnum extended: eMHM_ACQUISITION_FAILED
+
+BUGFIXES:
+- EDS: error handling of invalid EDS contents improved
+
+NOTES:
+===============================================================================================
+
+
+Version 1.5
+=====================================
+FEATURES:
+- New functions: MHM_Calibrate, MHM_Acquire, MHM_GetCalData, MHM_GetCalParam
+- MHM_ConfigDataEnum extended: eMHM_REFERENCE
+- MHM_ErrorEnum extended: eMHM_SLOW_ROTATION,	eMHM_FAST_ROTATION,	eMHM_GAIN_LIMIT
+
+BUGFIXES:
+- MB4U: WriteEeprom in SSI mode
+- SPI: ReadSens with R_MT > 0
+
+NOTES:
+===============================================================================================
+
+
+Version 1.4
+=====================================
+FEATURES:
+- New function: MHM_UpdateEDS
+- MHM_ParamEnum: eMHM_ADJUST renamed to eMHM_GET_MT
+- MHM_EdsParamEnum extended
+
+BUGFIXES:
+- Minor bugfixes
+
+NOTES:
+===============================================================================================
+
+
+Version 1.3
+=====================================
+FEATURES:
+- Error handling improved
+
+BUGFIXES:
+- SSI mode: invalid position value after writing to EEPROM
+- SSI mode: data length issue
+- Minor bugfixes
+
+NOTES:
+===============================================================================================
+
+
+Version 1.2
+====================
+FEATURES:
+- Initial DLL release
+
+BUGFIXES:
+
+DEVELOPMENT:
+
+NOTES:
+======================================================================
+
+
+Software Disclaimer
+
+Software and its documentation is provided by iC-Haus GmbH or contributors "AS IS" and is subject
+to the ZVEI General Conditions for the Supply of Products and Services with iC-Haus amendments and
+the ZVEI Software clause with iC-Haus amendments (www.ichaus.com/EULA).
+
+======================================================================

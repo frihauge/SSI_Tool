@@ -16,6 +16,8 @@
 		</Item>
 		<Item Name="GUI_Handler_Main.lvclass" Type="LVClass" URL="../GUIHandler_Main/GUI_Handler_Main.lvclass"/>
 		<Item Name="GUI_Handler_Seq.lvclass" Type="LVClass" URL="../GUIHandler/GUI_Handler_Seq.lvclass"/>
+		<Item Name="MainMeasure.vi" Type="VI" URL="../MainMeasure.vi"/>
+		<Item Name="MHM_1SL_interface.lvlib" Type="Library" URL="../DUT_Interface/lv_interface/MHM_1SL_interface.lvlib"/>
 		<Item Name="SSI_tool_UserMenu.rtm" Type="Document" URL="../SSI_tool_UserMenu.rtm"/>
 		<Item Name="SSIToolMain.vi" Type="VI" URL="../SSIToolMain.vi"/>
 		<Item Name="TestSeqClass.lvclass" Type="LVClass" URL="../testSeq/TestSeqClass.lvclass"/>
@@ -33,6 +35,7 @@
 			<Item Name="GuiSectionEnum.ctl" Type="VI" URL="../GUIHandler/GuiSectionEnum.ctl"/>
 			<Item Name="mainEventInfo.ctl" Type="VI" URL="../Exe_Queues/TypeDef/mainEventInfo.ctl"/>
 			<Item Name="mainExeStates.ctl" Type="VI" URL="../Exe_Queues/TypeDef/mainExeStates.ctl"/>
+			<Item Name="MHM_ErrorEnum.ctl" Type="VI" URL="../DUT_Interface/lv_interface/enums/MHM_ErrorEnum.ctl"/>
 			<Item Name="TestMeasureStep.lvclass" Type="LVClass" URL="../TestMeasureStep/TestMeasureStep.lvclass"/>
 			<Item Name="TestSeqType.ctl" Type="VI" URL="../testSeq/Typedef/TestSeqType.ctl"/>
 			<Item Name="TestStatus.ctl" Type="VI" URL="../testSeq/Typedef/TestStatus.ctl"/>
