@@ -1,0 +1,13 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>19.0.1f3</Version>
+<Cluster>
+<Name>Settings</Name>
+<NumElts>1</NumElts>
+<Refnum>
+<Name>Serial Port for strømforsyning</Name>
+<RefKind>VISA</RefKind>
+<Val>COM12</Val>
+</Refnum>
+</Cluster>
+</LVData>
