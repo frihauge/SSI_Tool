@@ -10,12 +10,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Supportfunctions" Type="Folder">
+			<Item Name="AccuracyResultQuery.vi" Type="VI" URL="../Supportfunctions/AccuracyResultQuery.vi"/>
+			<Item Name="Calculate Accuracy.vi" Type="VI" URL="../Supportfunctions/Calculate Accuracy.vi"/>
+		</Item>
 		<Item Name="Typedef" Type="Folder">
 			<Item Name="Ecoder_indicator.ctl" Type="VI" URL="../Ecoder_indicator.ctl"/>
 			<Item Name="TestTypeSelect.ctl" Type="VI" URL="../Typedef/TestTypeSelect.ctl"/>
 		</Item>
 		<Item Name="BISS_ReadConfigFile.vi" Type="VI" URL="../BISS_ReadConfigFile.vi"/>
 		<Item Name="CloseAlllHandles.vi" Type="VI" URL="../TestMeasureStep/CloseAlllHandles.vi"/>
+		<Item Name="Get Single Sequence from array.vi" Type="VI" URL="../Supportfunctions/Get Single Sequence from array.vi"/>
 		<Item Name="GUI_Handler_Main.lvclass" Type="LVClass" URL="../GUIHandler_Main/GUI_Handler_Main.lvclass"/>
 		<Item Name="GUI_Handler_Seq.lvclass" Type="LVClass" URL="../GUIHandler/GUI_Handler_Seq.lvclass"/>
 		<Item Name="MainMeasure.vi" Type="VI" URL="../MainMeasure.vi"/>
@@ -96,7 +101,7 @@
 			<Item Name="GuiSectionEnum.ctl" Type="VI" URL="../GUIHandler/GuiSectionEnum.ctl"/>
 			<Item Name="mainEventInfo.ctl" Type="VI" URL="../Exe_Queues/TypeDef/mainEventInfo.ctl"/>
 			<Item Name="mainExeStates.ctl" Type="VI" URL="../Exe_Queues/TypeDef/mainExeStates.ctl"/>
-			<Item Name="MHM_CalParamEnum.ctl" Type="VI" URL="../DUT_Interface/lv_interface/enums/MHM_CalParamEnum.ctl"/>
+			<Item Name="MHM_CalDataEnum.ctl" Type="VI" URL="../DUT_Interface/lv_interface/enums/MHM_CalDataEnum.ctl"/>
 			<Item Name="MHM_ErrorEnum.ctl" Type="VI" URL="../DUT_Interface/lv_interface/enums/MHM_ErrorEnum.ctl"/>
 			<Item Name="TestMeasureStep.lvclass" Type="LVClass" URL="../TestMeasureStep/TestMeasureStep.lvclass"/>
 			<Item Name="TestSeqType.ctl" Type="VI" URL="../testSeq/Typedef/TestSeqType.ctl"/>

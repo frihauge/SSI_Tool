@@ -22,7 +22,7 @@
 </DBL>
 <DBL>
 <Name>Min </Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Max</Name>
@@ -157,7 +157,7 @@
 </String>
 <String>
 <Name>Unit</Name>
-<Val>0,00</Val>
+<Val></Val>
 </String>
 </Cluster>
 <U32>
@@ -187,7 +187,7 @@
 </DBL>
 <DBL>
 <Name>Min </Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Max</Name>
@@ -212,7 +212,7 @@
 </String>
 <String>
 <Name>Unit</Name>
-<Val>0,00</Val>
+<Val></Val>
 </String>
 </Cluster>
 <U32>
@@ -466,7 +466,7 @@
 </DBL>
 <DBL>
 <Name>Max</Name>
-<Val>0.32000000000000</Val>
+<Val>0.38000000000000</Val>
 </DBL>
 <EW>
 <Name>TestStatus</Name>
