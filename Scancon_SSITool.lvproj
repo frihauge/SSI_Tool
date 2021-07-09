@@ -103,6 +103,8 @@
 			<Item Name="mainExeStates.ctl" Type="VI" URL="../Exe_Queues/TypeDef/mainExeStates.ctl"/>
 			<Item Name="MHM_CalDataEnum.ctl" Type="VI" URL="../DUT_Interface/lv_interface/enums/MHM_CalDataEnum.ctl"/>
 			<Item Name="MHM_ErrorEnum.ctl" Type="VI" URL="../DUT_Interface/lv_interface/enums/MHM_ErrorEnum.ctl"/>
+			<Item Name="MHM_ParamEnum.ctl" Type="VI" URL="../DUT_Interface/lv_interface/enums/MHM_ParamEnum.ctl"/>
+			<Item Name="MHM_WriteVerifyEnum.ctl" Type="VI" URL="../DUT_Interface/lv_interface/enums/MHM_WriteVerifyEnum.ctl"/>
 			<Item Name="TestMeasureStep.lvclass" Type="LVClass" URL="../TestMeasureStep/TestMeasureStep.lvclass"/>
 			<Item Name="TestSeqType.ctl" Type="VI" URL="../testSeq/Typedef/TestSeqType.ctl"/>
 			<Item Name="TestStatus.ctl" Type="VI" URL="../testSeq/Typedef/TestStatus.ctl"/>
