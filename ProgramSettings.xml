@@ -3,11 +3,16 @@
 <Version>19.0.1f3</Version>
 <Cluster>
 <Name>Settings</Name>
-<NumElts>1</NumElts>
+<NumElts>2</NumElts>
 <Refnum>
 <Name>Serial Port for strømforsyning</Name>
 <RefKind>VISA</RefKind>
-<Val>COM12</Val>
+<Val>COM8</Val>
+</Refnum>
+<Refnum>
+<Name>Serial Port for SSI Interface</Name>
+<RefKind>VISA</RefKind>
+<Val>COM6</Val>
 </Refnum>
 </Cluster>
 </LVData>

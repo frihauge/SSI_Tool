@@ -28,6 +28,7 @@
 		<Item Name="MHM Get Open Interface.vi" Type="VI" URL="../DUT_Interface/lv_interface/VIs/MHM Get Open Interface.vi"/>
 		<Item Name="MHM_1SL_interface.lvlib" Type="Library" URL="../DUT_Interface/lv_interface/MHM_1SL_interface.lvlib"/>
 		<Item Name="ProgramSettings.lvclass" Type="LVClass" URL="../ProgramSettings/ProgramSettings.lvclass"/>
+		<Item Name="Scancon ASIC.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Scancon ASIC/Scancon ASIC.lvlib"/>
 		<Item Name="SSI_tool_UserMenu.rtm" Type="Document" URL="../SSI_tool_UserMenu.rtm"/>
 		<Item Name="SSIToolMain.vi" Type="VI" URL="../SSIToolMain.vi"/>
 		<Item Name="TestSeqClass.lvclass" Type="LVClass" URL="../testSeq/TestSeqClass.lvclass"/>
@@ -93,6 +94,11 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+				<Item Name="VISA Set IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Set IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
