@@ -12,7 +12,7 @@
 <Refnum>
 <Name>Serial Port for SSI Interface</Name>
 <RefKind>VISA</RefKind>
-<Val>COM6</Val>
+<Val>COM5</Val>
 </Refnum>
 </Cluster>
 </LVData>

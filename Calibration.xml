@@ -18,7 +18,7 @@
 </String>
 <DBL>
 <Name>Meas</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min </Name>
@@ -73,7 +73,7 @@
 </String>
 <DBL>
 <Name>Meas</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min </Name>
@@ -183,7 +183,7 @@
 </String>
 <DBL>
 <Name>Meas</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min </Name>
@@ -238,7 +238,7 @@
 </String>
 <DBL>
 <Name>Meas</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min </Name>
@@ -293,7 +293,7 @@
 </String>
 <DBL>
 <Name>Meas</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min </Name>
@@ -348,11 +348,11 @@
 </String>
 <DBL>
 <Name>Meas</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min </Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Max</Name>
@@ -403,7 +403,7 @@
 </String>
 <DBL>
 <Name>Meas</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min </Name>
@@ -458,11 +458,11 @@
 </String>
 <DBL>
 <Name>Meas</Name>
-<Val>0.00000000000000</Val>
+<Val>0.31000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min </Name>
-<Val>0.00000000000000</Val>
+<Val>0.10000000000000</Val>
 </DBL>
 <DBL>
 <Name>Max</Name>
@@ -568,7 +568,7 @@
 </String>
 <DBL>
 <Name>Meas</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min </Name>
@@ -623,7 +623,7 @@
 </String>
 <DBL>
 <Name>Meas</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min </Name>
@@ -678,11 +678,11 @@
 </String>
 <DBL>
 <Name>Meas</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Min </Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Max</Name>
