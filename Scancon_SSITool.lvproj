@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="17008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -12,20 +12,20 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Supportfunctions" Type="Folder">
 			<Item Name="AccuracyResultQuery.vi" Type="VI" URL="../Supportfunctions/AccuracyResultQuery.vi"/>
+			<Item Name="BISS_ReadConfigFile.vi" Type="VI" URL="../BISS_ReadConfigFile.vi"/>
 			<Item Name="Calculate Accuracy.vi" Type="VI" URL="../Supportfunctions/Calculate Accuracy.vi"/>
+			<Item Name="CloseAlllHandles.vi" Type="VI" URL="../TestMeasureStep/CloseAlllHandles.vi"/>
+			<Item Name="MainMeasure.vi" Type="VI" URL="../MainMeasure.vi"/>
+			<Item Name="MHM Get Open Interface.vi" Type="VI" URL="../DUT_Interface/lv_interface/VIs/MHM Get Open Interface.vi"/>
 		</Item>
 		<Item Name="Typedef" Type="Folder">
 			<Item Name="Ecoder_indicator.ctl" Type="VI" URL="../Ecoder_indicator.ctl"/>
 			<Item Name="TestTypeSelect.ctl" Type="VI" URL="../Typedef/TestTypeSelect.ctl"/>
 		</Item>
-		<Item Name="BISS_ReadConfigFile.vi" Type="VI" URL="../BISS_ReadConfigFile.vi"/>
-		<Item Name="CloseAlllHandles.vi" Type="VI" URL="../TestMeasureStep/CloseAlllHandles.vi"/>
 		<Item Name="Get Single Sequence from array.vi" Type="VI" URL="../Supportfunctions/Get Single Sequence from array.vi"/>
 		<Item Name="GUI_Handler_Main.lvclass" Type="LVClass" URL="../GUIHandler_Main/GUI_Handler_Main.lvclass"/>
 		<Item Name="GUI_Handler_Seq.lvclass" Type="LVClass" URL="../GUIHandler/GUI_Handler_Seq.lvclass"/>
-		<Item Name="MainMeasure.vi" Type="VI" URL="../MainMeasure.vi"/>
 		<Item Name="maxonEPOS.lvlib" Type="Library" URL="../InstrumentsInterfaces/Motordriver/maxon EPOS/Examples/maxonEPOS.lvlib"/>
-		<Item Name="MHM Get Open Interface.vi" Type="VI" URL="../DUT_Interface/lv_interface/VIs/MHM Get Open Interface.vi"/>
 		<Item Name="MHM_1SL_interface.lvlib" Type="Library" URL="../DUT_Interface/lv_interface/MHM_1SL_interface.lvlib"/>
 		<Item Name="ProgramSettings.lvclass" Type="LVClass" URL="../ProgramSettings/ProgramSettings.lvclass"/>
 		<Item Name="Scancon ASIC.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Scancon ASIC/Scancon ASIC.lvlib"/>
@@ -34,11 +34,11 @@
 		<Item Name="TestSeqClass.lvclass" Type="LVClass" URL="../testSeq/TestSeqClass.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Tenma 72-25XX/Public/Close.vi"/>
-				<Item Name="Configure Output.vi" Type="VI" URL="/&lt;instrlib&gt;/Tenma 72-25XX/Public/Configure/Configure Output.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Tenma 72-25XX/Public/Initialize.vi"/>
-				<Item Name="Output OnOff.vi" Type="VI" URL="/&lt;instrlib&gt;/Tenma 72-25XX/Public/Action-Status/Output OnOff.vi"/>
-				<Item Name="Special Write-Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Tenma 72-25XX/Private/Special Write-Read.vi"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Tenma 72-25XX/Tenma 72-25XX/Public/Close.vi"/>
+				<Item Name="Configure Output.vi" Type="VI" URL="/&lt;instrlib&gt;/Tenma 72-25XX/Tenma 72-25XX/Public/Configure/Configure Output.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Tenma 72-25XX/Tenma 72-25XX/Public/Initialize.vi"/>
+				<Item Name="Output OnOff.vi" Type="VI" URL="/&lt;instrlib&gt;/Tenma 72-25XX/Tenma 72-25XX/Public/Action-Status/Output OnOff.vi"/>
+				<Item Name="Special Write-Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Tenma 72-25XX/Tenma 72-25XX/Private/Special Write-Read.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -104,9 +104,12 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
+			<Item Name="EposCmd.dll" Type="Document" URL="../../../../../../SSI_Tool/InstrumentsInterfaces/Motordriver/maxon EPOS/Resources/EposCmd.dll"/>
+			<Item Name="EposCmd64.dll" Type="Document" URL="../../../../../../SSI_Tool/InstrumentsInterfaces/Motordriver/maxon EPOS/Resources/EposCmd64.dll"/>
 			<Item Name="GuiSectionEnum.ctl" Type="VI" URL="../GUIHandler/GuiSectionEnum.ctl"/>
 			<Item Name="mainEventInfo.ctl" Type="VI" URL="../Exe_Queues/TypeDef/mainEventInfo.ctl"/>
 			<Item Name="mainExeStates.ctl" Type="VI" URL="../Exe_Queues/TypeDef/mainExeStates.ctl"/>
+			<Item Name="MHM_1SL_interface.dll" Type="Document" URL="../../../../../../SSI_Tool/DUT_Interface/lv_interface/lib/MHM_1SL_interface.dll"/>
 			<Item Name="MHM_CalDataEnum.ctl" Type="VI" URL="../DUT_Interface/lv_interface/enums/MHM_CalDataEnum.ctl"/>
 			<Item Name="MHM_ErrorEnum.ctl" Type="VI" URL="../DUT_Interface/lv_interface/enums/MHM_ErrorEnum.ctl"/>
 			<Item Name="MHM_ParamEnum.ctl" Type="VI" URL="../DUT_Interface/lv_interface/enums/MHM_ParamEnum.ctl"/>
@@ -150,47 +153,10 @@
 				<Property Name="DistPart[1].productID" Type="Str">{D9084972-85DA-4F19-B6B3-527E3948D5A1}</Property>
 				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 19.5</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{1E3C5D81-5D10-421A-AE16-1FC585D2FB7D}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f3</Property>
-				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
-				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[2].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
-				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2019</Property>
-				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{8386B074-C90C-43A8-99F2-203BAAB4111C}</Property>
-				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 Non-English Support.</Property>
-				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{446D49A5-F830-4ADF-8C78-F03284D6882D}</Property>
-				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI Logos 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2019</Property>
-				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
-				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
-				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2018</Property>
-				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
-				<Property Name="DistPart[2].SoftDepCount" Type="Int">12</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str"></Property>
+				<Property Name="DistPart[2].productID" Type="Str"></Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Run-Time Engine 2017</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{620DBAE1-B159-4204-8186-0813C8A6434C}</Property>
 				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_author" Type="Str">Green Instruments A/S</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -202,7 +168,7 @@
 				<Property Name="INST_productName" Type="Str">Scancon_SSITool</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">19018005</Property>
+				<Property Name="InstSpecVersion" Type="Str">17000000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">SCANCON Encoders A/S</Property>
 				<Property Name="MSI_arpURL" Type="Str">www.scancon.dk</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
